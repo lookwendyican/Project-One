@@ -1,150 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Internet Sports Database</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Internet Sports Database</title>
 </head>
+
 <body>
-    
+
+
+
+  <!-- Navigation -->
+  <div class="navbar-fixed">
+  <nav class="top-nav blue-grey darken-4">
+    <div class="container">
+    <div class="nav-wrapper ">
+
+      <!--Logo image and name on left margin-->
+      <img
+        src="assets/images/kisspng-basketball-football-junior-varsity-team-coach-sports-ball-png-image-5a76ef0dd83cb7.9493246215177438858857.png"
+        height=50px alt="sport balls logo">
+      <a href="#!" class="brand-logo">ISDB</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+
+        <!-- NFL Logo  -->
+        <li><a href="#" class="nba">
+            <div class="chip blue-grey darken-4 text-white">
+              <img src="assets/images/nfllogo.png" height=50px alt="NFL Logo">
+              NFL
+            </div>
+          </a></li>
+
+        <!-- NBA LOGO -->
+        <li><a href="#" class="nba">
+            <div class="chip blue-grey darken-4 text-white">
+              <img src="assets/images/nbalogo.jpg" alt="NBA Logo">
+              NBA
+            </div>
+          </a></li>
+
+        <!-- NHL LOGO -->
+        <li><a href="#" class="nba">
+            <div class="chip blue-grey darken-4">
+              <img src="assets/images/nhllogo.png" alt="NHL Logo">
+              NHL
+            </div>
+          </a></li>
+
+        <!-- MLB LOGO -->
+        <li><a href="#" class="mlb">
+            <div class="chip blue-grey darken-4">
+              <img src="assets/images/mlblogo.png" alt="MLB Logo">
+              MLB
+            </div>
+          </a></li>
+
+        <!-- Soccer LOGO -->
+        <li><a href="#" class="soccer">
+            <div class="chip blue-grey darken-4">
+              <img src="assets/images/soccerball.jpg" alt="Soccer ball">
+              Soccer Leagues
+            </div>
+          </a></li>
+
+        <li><a class="dropdown-trigger btn-floating waves-effect waves-light teal" href="#!" data-target="dropdown1">
+            <i class="material-icons">search</i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+
+  </nav>
+</div>
+
+
+  <!--sidenav   -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#" class="nfl">NFL</a></li>
+    <li><a href="#" class="nba">NBA</a></li>
+    <li><a href="#" class="mlb">MLB</a></li>
+    <li><a href="#" class="nhl">NHL</a></li>
+    <li><a href="#" class="soccer">Soccer</a></li>
+    <li>Search</li>
+  </ul>
+
+  <br>
   
 
-    <!-- Navigation -->
-    <nav>
-      <div class="nav-wrapper blue-grey darken-4">
-        <a href="#!" class="brand-logo">ISDB</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-         <!-- NFL Logo  -->
-         <li><a href="#" class="nba">
-                 <div class="chip blue-grey darken-4 text-white">
-                 <img src="assets/images/nfllogo.png" height=50px alt="NFL Logo">
-                 NFL
-                 </div></a></li>
-          
-          <!-- NBA LOGO -->
-          <li><a href="#" class="nba">
-             <div class="chip blue-grey darken-4 text-white">
-                 <img src="assets/images/nbalogo.jpg" alt="NBA Logo">
-                 NBA
-               </div></a></li>
-
-         <!-- NHL LOGO -->
-         <li><a href="#" class="nba">
-             <div class="chip blue-grey darken-4 text-white">
-                 <img src="assets/images/nhllogo.png" alt="NHL Logo">
-                 NHL
-             </div></a></li>
-
-         <!-- MLB LOGO -->
-         <li><a href="#" class="mlb">
-                 <div class="chip blue-grey darken-4 text-white">
-                     <img src="assets/images/mlblogo.png" alt="MLB Logo">
-                     MLB
-                   </div></a></li>
-
-          <!-- Soccer LOGO -->
-          <li><a href="#" class="soccer">
-                  <div class="chip blue-grey darken-4">
-                      <img src="assets/images/soccerball.jpg" alt="Soccer ball">
-                      Soccer Leagues
-                    </div></a></li>
-
-          <li><a class="dropdown-trigger btn-floating waves-effect waves-light teal" href="#!" data-target="dropdown1">
-                  <i class="material-icons">search</i>
-                </a></li>
-                    
-             
-
-  <li></li>
-       
-     
-            
-
+  <!--CAROUSEL SLIDER SECTION-->
+  <div class="container">
+    <!-- Slider -->
+    <div class="div1">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="assets/images/jose-morales-3k_FcShH0jY-unsplash.jpg">
+            <!-- CENTER ALIGN CAPTION -->
+            <div class="caption center-align">
+              <h3 class="white-text">MLB</h3>
+              <h5 class="white-text">"Love is the most important thing in the world, but baseball is pretty good, too."
+                - Yogi Berra </h5>
+            </div>
+          </li>
+          <li>
+            <img src="assets/images/tj-dragotta-Gl0jBJJTDWs-unsplash.jpg">
+            <!-- CENTER ALIGN CAPTION -->
+            <div class="caption center-align">
+              <h3 class="white-text">NBA</h3>
+              <h5 class="white-text">"If Your Afraid To Fail, Then Your Going to Fail." - Kobe Bryant</h5>
+            </div>
+          </li>
+          <li>
+            <img src="assets/images/hence-the-boom-KgYazRO3l8A-unsplash.jpg">
+            <!-- LEFT ALIGN CAPTION -->
+            <div class="caption left-align">
+              <h3>NFL</h3>
+              <h5 class="light grey-text text-lighten-3">"Perfection is not attainable. But if we chase perfection, we
+                can catch excellence.” — Vince Lombardi</h5>
+            </div>
+          </li>
+          <li>
+            <img src="assets/images/jhan-castillon--xWbnIW_ma0-unsplash.jpg">
+            <!-- RIGHT ALIGN CAPTION -->
+            <div class="caption right-align">
+              <h3>Futball Leagues</h3>
+              <h5 class="light grey-text text-lighten-3">“The more difficult the victory, the greater the happiness in
+                winning.”-Pelé</h5>
+            </div>
+          </li>
         </ul>
       </div>
-      
- </nav>
-
-        <!--sidenav   -->
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="#" class="nfl">NFL</a></li>
-      <li><a href="#" class="nba">NBA</a></li>
-      <li><a href="#" class="mlb">MLB</a></li>
-      <li><a href="#" class="nhl">NHL</a></li>
-      <li><a href="#" class="soccer">Soccer</a></li>
-      <li>Search</li>
-    </ul>
-    
-    <div class="container">
-        <!-- Slider -->
-    <div class="div1">    
-        <div class="slider">
-                <ul class="slides">
-                  <li>
-                    <img src="assets/images/jose-morales-3k_FcShH0jY-unsplash.jpg">
-                    <!-- CENTER ALIGN CAPTION -->
-                    <div class="caption center-align">
-                      <h3 class="white-text">MLB</h3>
-                      <h5 class="white-text">"Love is the most important thing in the world, but baseball is pretty good, too."  - Yogi Berra </h5>
-                    </div>
-                  </li>
-                  <li>
-                        <img src="assets/images/tj-dragotta-Gl0jBJJTDWs-unsplash.jpg">
-                        <!-- CENTER ALIGN CAPTION -->
-                        <div class="caption center-align">
-                          <h3 class="white-text">NBA</h3>
-                          <h5 class="white-text">"If Your Afraid To Fail, Then Your Going to Fail." - Kobe Bryant</h5>
-                        </div>
-                      </li>
-                  <li>
-                    <img src="assets/images/hence-the-boom-KgYazRO3l8A-unsplash.jpg">
-                    <!-- LEFT ALIGN CAPTION -->
-                    <div class="caption left-align">
-                      <h3>NFL</h3>
-                      <h5 class="light grey-text text-lighten-3">"Perfection is not attainable. But if we chase perfection, we can catch excellence.” — Vince Lombardi</h5>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="assets/images/jhan-castillon--xWbnIW_ma0-unsplash.jpg">
-                    <!-- RIGHT ALIGN CAPTION -->
-                    <div class="caption right-align">
-                      <h3>Futball Leagues</h3>
-                      <h5 class="light grey-text text-lighten-3">“The more difficult the victory, the greater the happiness in winning.”-Pelé</h5>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-             <h1 class="center-align">Stay up to Date</h1>
-       </div>
-<!-- Div2 -->
-       <div class="div2">
-        <h1 class="center-align">Select your NBA Team</h1>
-        <hr>
-        <br>
-       </div>
-<!-- div3 Team Page -->
+      <h1 class="center-align">Stay up to Date</h1>
+    </div>
+    <!-- Div2 -->
+    <div class="div2">
+      <h1 class="center-align">Select your NBA Team</h1>
+      <hr>
+      <br>
+    </div>
+    <!-- div3 Team Page -->
     <div class="div3">
 
     </div>
- </div>  <!--container ending tag  -->
+  </div>
+  <!--container ending tag  -->
 
 
-    
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>M.AutoInit()</script>
-    <script src="assets/javascript/logic.js"></script> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>M.AutoInit()</script>
+  <script src="assets/javascript/logic.js"></script>
 </body>
+
 </html>
