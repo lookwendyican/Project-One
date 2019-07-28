@@ -11,31 +11,77 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Project One plan B</title>
+    <title>Internet Sports Database</title>
 </head>
 <body>
-    <!-- Wendy Navigation chip  -->
     
+  
 
     <!-- Navigation -->
     <nav>
-         <div class="nav-wrapper black">
-           <a href="#!" class="brand-logo">Logo</a>
-           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="#">NFL</a></li>
-             <li><a href="#" class="nba">NBA</a></li>
-             <li><a href="#">MLB</a></li>
-             <li><a href="#">Soccer</a></li>
-           </ul>
-         </div>
-    </nav>
+      <div class="nav-wrapper blue-grey darken-4">
+        <a href="#!" class="brand-logo">ISDB</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+         <!-- NFL Logo  -->
+         <li><a href="#" class="nba">
+                 <div class="chip blue-grey darken-4 text-white">
+                 <img src="assets/images/nfllogo.png" height=50px alt="NFL Logo">
+                 NFL
+                 </div></a></li>
+          
+          <!-- NBA LOGO -->
+          <li><a href="#" class="nba">
+             <div class="chip blue-grey darken-4 text-white">
+                 <img src="assets/images/nbalogo.jpg" alt="NBA Logo">
+                 NBA
+               </div></a></li>
+
+         <!-- NHL LOGO -->
+         <li><a href="#" class="nba">
+             <div class="chip blue-grey darken-4 text-white">
+                 <img src="assets/images/nhllogo.png" alt="NHL Logo">
+                 NHL
+             </div></a></li>
+
+         <!-- MLB LOGO -->
+         <li><a href="#" class="mlb">
+                 <div class="chip blue-grey darken-4 text-white">
+                     <img src="assets/images/mlblogo.png" alt="MLB Logo">
+                     MLB
+                   </div></a></li>
+
+          <!-- Soccer LOGO -->
+          <li><a href="#" class="soccer">
+                  <div class="chip blue-grey darken-4">
+                      <img src="assets/images/soccerball.jpg" alt="Soccer ball">
+                      Soccer Leagues
+                    </div></a></li>
+
+          <li><a class="dropdown-trigger btn-floating waves-effect waves-light teal" href="#!" data-target="dropdown1">
+                  <i class="material-icons">search</i>
+                </a></li>
+                    
+             
+
+  <li></li>
+       
+     
+            
+
+        </ul>
+      </div>
+      
+ </nav>
+
         <!--sidenav   -->
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="#">NFL</a></li>
+      <li><a href="#" class="nfl">NFL</a></li>
       <li><a href="#" class="nba">NBA</a></li>
-      <li><a href="#">MLB</a></li>
-      <li><a href="#">Soccer</a></li>
+      <li><a href="#" class="mlb">MLB</a></li>
+      <li><a href="#" class="nhl">NHL</a></li>
+      <li><a href="#" class="soccer">Soccer</a></li>
+      <li>Search</li>
     </ul>
     
     <div class="container">
@@ -63,16 +109,16 @@
                     <img src="assets/images/hence-the-boom-KgYazRO3l8A-unsplash.jpg">
                     <!-- LEFT ALIGN CAPTION -->
                     <div class="caption left-align">
-                      <h3>Left Align Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+                      <h3>NFL</h3>
+                      <h5 class="light grey-text text-lighten-3">"Perfection is not attainable. But if we chase perfection, we can catch excellence.” — Vince Lombardi</h5>
                     </div>
                   </li>
                   <li>
                     <img src="assets/images/jhan-castillon--xWbnIW_ma0-unsplash.jpg">
                     <!-- RIGHT ALIGN CAPTION -->
                     <div class="caption right-align">
-                      <h3>Right Align Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+                      <h3>Futball Leagues</h3>
+                      <h5 class="light grey-text text-lighten-3">“The more difficult the victory, the greater the happiness in winning.”-Pelé</h5>
                     </div>
                   </li>
                 </ul>
@@ -99,6 +145,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>M.AutoInit()</script>
-    <script src="assets/javascript/game.js"></script> 
+    <script src="assets/javascript/logic.js"></script> 
 </body>
 </html>

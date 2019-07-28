@@ -53,7 +53,8 @@ $(document).ready(function(){
     
     });
     
-    
+    $(".dropdown-trigger").dropdown();
+ 
     });
     
     // Working Commented out code 
