@@ -10,3 +10,16 @@
 .chip {
     color: 'blue-grey darken-4';
 }
+/* Moves the slider 20px away from the Navbar */
+.slider{
+    margin-top:20px;
+}
+/* keeps the h1 visable on mobile screen without needing to scroll */
+.div1 h1{
+    margin-top: 10px;
+}
+
+/* Moves Home page logo off the leftside of screen on Desktop screens  */
+nav .brand-logo{
+    margin-left: 10px;
+}
