@@ -14,9 +14,41 @@
     <title>Project One plan B</title>
 </head>
 <body>
-  
+  <!-- Navigation -->
+  <nav>
+      <div class="nav-wrapper black">
+        <a href="index.html" class="brand-logo"><i class="material-icons">
+           home
+           </i></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+           <li><a href="#" class="league_link"     id="nfl_link" data-leagueName="NFL">NFL</a></li>
+           <li><a href="#" class="nba league_link" id="nba_link" data-leagueName="NBA">NBA</a></li>
+           <li><a href="#" class="league_link"     id="mlb_link" data-leagueName="MLB">MLB</a></li>
+           <li><a href="#" class="league_link"     id="mls_link" data-leagueName="American Major League Soccer">Soccer</a></li>
+        </ul>
+   <!-- Search box added here -->
+        <div class="nav-wrapper right hide-on-med-and-down">
+           <form>
+             <div class="input-field">
+               <input id="search" type="search" required>
+               <label class="label-icon"  id="search-box" for="search"><i class="material-icons">search</i></label>
+               <i class="material-icons">close</i>
+             </div>
+           </form>
+         </div>
+   <!--End of Search box-->
+      </div>
+ </nav>
+     <!--sidenav   -->
+ <ul class="sidenav" id="mobile-demo">
+   <li><a href="#" class="league_link"     id="nfl_link" data-leagueName="NFL">NFL</a></li>
+   <li><a href="#" class="nba league_link" id="nba_link" data-leagueName="NBA">NBA</a></li>
+   <li><a href="#" class="league_link"     id="mlb_link" data-leagueName="MLB">MLB</a></li>
+   <li><a href="#" class="league_link"     id="mls_link" data-leagueName="American Major League Soccer">Soccer</a></li>
+ </ul>
 
-
+ <header></header>
 
 
  <!-- A div with a table to test output from API calls -->
@@ -58,7 +90,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>M.AutoInit()</script>
-    <!-- <script src="assets/javascript/game.js"></script>  -->
+    
 
     <!-- Sport Teams -->
     <script src="assets/javascript/team.js"></script>
