@@ -58,9 +58,7 @@ function renderTeamDescCallback(ajaxResult) {
     //Create a <td> element the remaining elements from the ajaxResult
     var column1 = $("<td>").text(ajaxResult.teams[0].strTeam);
      var column2 = $("<td>").text(ajaxResult.teams[0].strDescriptionEN);
-    ///////////////////////////////////////////////////////////////////
-    var teamBanner = $('<img>').attr('src=', ajaxResult.teams[0].strTeamBanner);
-    //////////////////////////////////////////////////////////////////
+     
     upcominEvents(ajaxResult.teams[0].strTeam);
     //Append the <td>'s to the <tr>
     tr.append(column1).append(column2);
