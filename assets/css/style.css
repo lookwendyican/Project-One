@@ -11,9 +11,14 @@
 nav .brand-logo{
     margin-left: 10px;
 }
-
+/* Targets team-banner size */
 .team-stadium-img{
     width: 800px;
     height: 300px;
 
 }
+/* Targets team-name provides space between team-name and team-stadium img */
+#team-name{
+    margin-bottom: 50px;
+}
+
