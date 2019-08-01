@@ -205,3 +205,10 @@ $( function() {
     //upcomingEvents     (teamName);
 
 });
+// Clears the input value on submit. 
+$('#submit').on('click', function(){
+    console.log('clicked');
+    var rating = $('#rating').val();
+      console.log(rating);
+      $('#rating').val('');
+  });
