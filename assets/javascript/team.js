@@ -211,4 +211,7 @@ $('#submit').on('click', function(){
     var rating = $('#rating').val();
       console.log(rating);
       $('#rating').val('');
+      $('.modal').modal();
   });
+
+  
