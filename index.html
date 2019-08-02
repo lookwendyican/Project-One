@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Goople fonts link -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Rubik|Source+Code+Pro&display=swap" rel="stylesheet">
-    <!-- CSS stylesheet link -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
-    <!-- Link to use Font Awesome  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Goople fonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Rubik|Source+Code+Pro&display=swap" rel="stylesheet">
+  <!-- CSS stylesheet link -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Link to use Font Awesome  -->
   <script src="https://kit.fontawesome.com/382b4a5e97.js"></script>
 
-    
-    <title>Sports Fanatic</title>
+
+  <title>Sports Fanatic</title>
 </head>
 
 <body>
-    <!-- Navigation -->
-  <nav>
-    <div class="nav-wrapper black">
-      <a href="index.html" class="brand-logo"><i class="material-icons">home</i></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#" class="league_link"     id="nfl_link" data-leagueName="NFL">NFL</a></li>
-        <li><a href="#" class="nba league_link" id="nba_link" data-leagueName="NBA">NBA</a></li>
-        <li><a href="#" class="league_link"     id="mlb_link" data-leagueName="MLB">MLB</a></li>
-        <li><a href="#" class="league_link"     id="mls_link" data-leagueName="American Major League Soccer">Soccer</a></li>
-      </ul>
-    </div>
-  </nav>
+  <!-- Navigation -->
+  <!-- <nav>
+    <div class="nav-wrapper teal"> -->
+  <div class="navbar-fixed">
+    <nav class="teal darken-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"><i class="material-icons">home</i></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#" class="league_link" id="nfl_link" data-leagueName="NFL">NFL</a></li>
+            <li><a href="#" class="nba league_link" id="nba_link" data-leagueName="NBA">NBA</a></li>
+            <li><a href="#" class="league_link" id="mlb_link" data-leagueName="MLB">MLB</a></li>
+            <li><a href="#" class="league_link" id="mls_link" data-leagueName="American Major League Soccer">Soccer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
   <!--sidenav   -->
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="#" class="league_link sidenav-close"     id="nfl_link" data-leagueName="NFL">NFL</a></li>
+    <li><a href="#" class="league_link sidenav-close" id="nfl_link" data-leagueName="NFL">NFL</a></li>
     <li><a href="#" class="nba league_link sidenav-close" id="nba_link" data-leagueName="NBA">NBA</a></li>
-    <li><a href="#" class="league_link sidenav-close"     id="mlb_link" data-leagueName="MLB">MLB</a></li>
-    <li><a href="#" class="league_link sidenav-close"     id="mls_link" data-leagueName="American Major League Soccer">Soccer</a></li>
+    <li><a href="#" class="league_link sidenav-close" id="mlb_link" data-leagueName="MLB">MLB</a></li>
+    <li><a href="#" class="league_link sidenav-close" id="mls_link"
+        data-leagueName="American Major League Soccer">Soccer</a></li>
   </ul>
-    
+
   <div class="container">
     <!-- Slider -->
-    <div class="div1">    
+    <div class="div1">
       <div class="slider">
         <ul class="slides">
           <li>
@@ -51,7 +60,8 @@
             <!-- CENTER ALIGN CAPTION -->
             <div class="caption center-align">
               <h3 class="white-text">MLB</h3>
-              <h5 class="white-text">"Love is the most important thing in the world, but baseball is pretty good, too."  - Yogi Berra </h5>
+              <h5 class="white-text">"Love is the most important thing in the world, but baseball is pretty good, too."
+                - Yogi Berra </h5>
             </div>
           </li>
           <li>
@@ -78,12 +88,13 @@
             <!-- RIGHT ALIGN CAPTION -->
             <div class="caption right-align">
               <h3>Soccer</h3>
-              <h5 class="light grey-text text-lighten-3">“You have to fight to reach your dream. You have to sacrifice and work hard for it.” - Lionel Messi</h5>
+              <h5 class="light grey-text text-lighten-3">“You have to fight to reach your dream. You have to sacrifice
+                and work hard for it.” - Lionel Messi</h5>
             </div>
           </li>
         </ul>
       </div>
-              
+
       <h1 class="center-align">Stay up to Date</h1>
       <!-- Search Area -->
       <form onSubmit="return false;" class="hide-on-med-and-down">
@@ -103,14 +114,19 @@
         <div class="row">
           <div class="col">
             <table class="table table-hover" id="test_table">
-              <thead> <!-- Table heading row goes here --> </thead>
-              <tbody> <!-- Table data rows go here --></tbody>
-              </table>
+              <thead>
+                <!-- Table heading row goes here -->
+              </thead>
+              <tbody>
+                <!-- Table data rows go here -->
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
-  </div>  <!--container ending tag  -->
+  </div>
+  <!--container ending tag  -->
 
 
   <section class="section section-follow teal darken-2 white-text center">
@@ -130,7 +146,7 @@
 
             <a href="https//youtube.com" target="_blank" class="white-text"></a>
             <i class="fab fa-youtube fa-3x"></i>
-            
+
 
           </p>
         </div>
@@ -141,8 +157,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>M.AutoInit()</script>
-  <script src="assets/javascript/logic.js"></script> 
-  <script src="assets/javascript/league.js"></script> 
-  
+  <script src="assets/javascript/logic.js"></script>
+  <script src="assets/javascript/league.js"></script>
+
 </body>
+
 </html>
